@@ -1,0 +1,29 @@
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+  font-family: "SUSE Mono", sans-serif;
+  text-align: center;
+}
+h1{
+    font-size: 150px;
+    padding-top: 13%;
+    text-shadow:
+        0 0 5px rgb(88, 87, 87), 
+        0 0 10px rgb(135, 142, 140), 
+        0 0 20px rgb(152, 156, 155), 
+        0 0 150px rgb(238, 243, 241); 
+}
+.button{
+    font-size: 30px;
+    padding: 10px 20px;
+    margin-top: -10px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+    top: -60px;
+}
