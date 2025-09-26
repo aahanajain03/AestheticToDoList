@@ -5,19 +5,29 @@ body{
 }
 a{
     display: inline-block;
-    margin: 30px 100px;
+    justify-content: center;
+    align-items: center;
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 20px 74px;
 }
-.timer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 30px 100px;
+.logo{
+    display: inline-block;
+    text-shadow:
+        0 0 5px rgb(149, 145, 145), 
+        0 0 10px rgb(164, 168, 167), 
+        0 0 200px rgb(240, 248, 246), 
+        0 0 550px rgb(238, 243, 241); 
 }
-.choice{
-    margin: 30px 100px;
-    font-weight: bold;
+a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.music{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
 }

@@ -7,9 +7,21 @@ a{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin: 30px 100px;
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 20px 74px;
+}
+.logo{
+    display: inline-block;
+    text-shadow:
+        0 0 5px rgb(149, 145, 145), 
+        0 0 10px rgb(164, 168, 167), 
+        0 0 200px rgb(240, 248, 246), 
+        0 0 550px rgb(238, 243, 241); 
+}
+a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
 }

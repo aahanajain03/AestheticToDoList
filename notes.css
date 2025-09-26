@@ -7,9 +7,59 @@ a{
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin: 30px 100px;
     font-weight: bold;
     font-size: 20px;
     color: #FFFFFF;
     text-decoration: none;
+    padding: 20px 74px;
+}
+.logo{
+    display: inline-block;
+    text-shadow:
+        0 0 5px rgb(149, 145, 145), 
+        0 0 10px rgb(164, 168, 167), 
+        0 0 200px rgb(240, 248, 246), 
+        0 0 550px rgb(238, 243, 241); 
+}
+a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+h3{
+    font-size: 30px;
+}
+.notes{
+    position: fixed;
+    top: 15%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.subjects{
+    position: fixed;
+    top: 15%;
+    padding-left: 150px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.vl {
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 1900px;
+  position: fixed;
+  left: 20%;
+}
+.button{
+    padding: 10px 20px;
+    font-family: "SUSE Mono", sans-serif;
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+.button:hover{
+    cursor: pointer;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.moveLeft{
+    margin-left: -20px;
 }
